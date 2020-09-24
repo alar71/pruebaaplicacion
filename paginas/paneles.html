@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/paneles.css" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <div class=" blue-grey lighten-5"> 
+        <nav id='navegador' class="light-green lighten-3">
+            <div id="carousel1" class="carousel slide s12'"  >
+                <a id='ref_item_nav' class="carousel-item" href="#one!"><img id="img_item_nav" class="responsive-img" src="/img/casa.png"></a>
+            </div>
+        <div class="row"></div>
+        </nav>
+        <main>
+            <section>
+                <div class="video-container">
+                    <iframe id="you" src="https://www.youtube.com/embed/ESMUCSkuC4s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section>
+                <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header"><i src="/img/detector_ir.png"></i>Anular zona</div>
+                      <div class="collapsible-body"><span>Como anular la zona desde el teclado</span>
+                        <div class="row"></div>  
+                        <a class="waves-effect waves-light btn" onclick=(listav(1))><i class="material-icons left">visibility</i>Visualizar</a>                      
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">warning</i>Fallos del sistema</div>
+                      <div class="collapsible-body"><span>Visualizar los posibles fallos del sistema.</span>                        
+                      <div class="row"></div>  
+                      <a class="waves-effect waves-light btn" onclick=(listav(2))><i class="material-icons left">visibility</i>Visualizar</a>                      
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span>
+                        <div class="row"></div>  
+                        <a class="waves-effect waves-light btn" onclick=(listav(3))><i class="material-icons left">visibility</i>Visualizar</a>                        
+                      </div>
+                    </li>
+                  </ul>
+            </section>        
+        </main>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!--script src="/js/materialize/materialize.min.js"></script-->
+        <script src="/js/paneles.js"></script>            
+</body>
+</html>
+

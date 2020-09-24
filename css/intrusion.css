@@ -1,0 +1,48 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+  }
+nav {
+    margin-bottom: 10px;
+}
+
+
+.card{
+    width: 80%;
+    height: 80%;
+}
+
+#carousel2 {
+    max-width: 100%;
+    max-height: 100%;
+}
+/*.nav .carousel .img {*/
+#img_item_nav {    
+    max-height: 50px;
+    max-width: 50px;
+}
+/*.nav .carousel {*/
+#carousel1 {    
+    margin: auto;
+    margin-bottom: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+    height: 50px;
+}
+#ref_item_nav {
+    margin:auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 32px;
+    height: 32px;
+}
+
+/*#carousel2 {
+    height: 100%;
+}*/
